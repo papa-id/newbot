@@ -1,7 +1,7 @@
 
 # Testnet Dex Bot
 
-An automated bot for performing **token swaps** and **liquidity additions** on the [0g.ai Testnet](https://evmrpc-testnet.0g.ai), built with `ethers.js`. This script supports **multiple wallets**, **proxy rotation**, and randomized behaviors for testing purposes.
+An automated bot for performing **token swaps** and **liquidity additions**  This script supports **multiple wallets**, **proxy rotation**, and randomized behaviors for testing purposes.
 
 ---
 
