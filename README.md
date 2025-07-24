@@ -84,7 +84,7 @@ Then follow the interactive CLI:
 
 ---
 
-## ðŸ§‘â€ðŸ’» Author
+» Author
 
 Built by [papa-id](https://github.com/papa-id)
 
@@ -92,4 +92,4 @@ Built by [papa-id](https://github.com/papa-id)
 
 ## License
 
-This project is open-sourced under the MIT License â€” free to use for learning, development, and testnet experimentation.
+This project is open-sourced under the MIT License free to use for learning, development, and testnet experimentation.
