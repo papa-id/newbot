@@ -1,22 +1,22 @@
 
-# ðŸ¤– newbot - 0g.ai Testnet Trading Bot
+# Testnet Dex Bot
 
 An automated bot for performing **token swaps** and **liquidity additions** on the [0g.ai Testnet](https://evmrpc-testnet.0g.ai), built with `ethers.js`. This script supports **multiple wallets**, **proxy rotation**, and randomized behaviors for testing purposes.
 
 ---
 
-## ðŸš€ Features
+## Features
 
-- âœ… Interactive CLI menu
-- âœ… Multi-wallet support via `.env` file
-- âœ… Proxy support (`HTTP`, `SOCKS4`, `SOCKS5`) via `proxies.txt`
-- âœ… Random token pairs for swap/liquidity
-- âœ… Random delay between actions (50â€“120 seconds)
-- âœ… Safe for use on testnets only
+-  Interactive CLI menu
+-  Multi-wallet support via `.env` file
+-  Proxy support (`HTTP`, `SOCKS4`, `SOCKS5`) via `proxies.txt`
+-  Random token pairs for swap/liquidity
+-  Random delay between actions (50â€“120 seconds)
+-  Safe for use on testnets only
 
 ---
 
-## ðŸ“¦ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -33,7 +33,7 @@ npm install
 
 ---
 
-## âš™ï¸ Configuration
+##  Configuration
 
 ### 1. `.env` File
 
@@ -44,7 +44,7 @@ PRIVATE_KEY1=0xabc123...
 PRIVATE_KEY2=0xdef456...
 ```
 
-> âš ï¸ Use **testnet wallets only**. Never use mainnet/private wallets here.
+> 1. Use **testnet wallets only**. Never use mainnet/private wallets here.
 
 ### 2. `proxies.txt` (Optional)
 
@@ -60,7 +60,7 @@ If no proxies are provided, the bot will work without them.
 
 ---
 
-## â–¶ï¸ How to Run
+## How to Run
 
 ```bash
 node main.js
@@ -75,36 +75,8 @@ Then follow the interactive CLI:
 
 ---
 
-## ðŸ§ª Example Output
 
-```
-âœ¨ Welcome to LONTE DEX Script âœ¨
-1. Swap
-2. Liquidity
-3. Both
-Enter your choice: 3
-Enter number of transactions: 5
-Use proxy? (y/n): y
-...
-```
-
----
-
-## ðŸ› ï¸ Dependencies
-
-As defined in `package.json`:
-
-- `ethers`
-- `dotenv`
-- `readline`
-- `https-proxy-agent`
-- `socks-proxy-agent`
-
-Installed automatically via `npm install`.
-
----
-
-## ðŸ’¡ Tips
+## Tips
 
 - Use faucet services to fund your testnet wallet
 - Check `0g.ai` documentation for supported tokens and endpoints
@@ -118,6 +90,6 @@ Built by [papa-id](https://github.com/papa-id)
 
 ---
 
-## ðŸ“„ License
+## License
 
 This project is open-sourced under the MIT License â€” free to use for learning, development, and testnet experimentation.
